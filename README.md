@@ -2,7 +2,7 @@ IntelliJ IDEA / PhpStorm Plugin for [[DanDomain](https://dandomain.dk/webshop)]
 
 Key         | Value
 ----------- | -----------
-Plugin Url  | https://plugins.jetbrains.com/plugin/7853
+Plugin Url  | TBA
 ID          | TBA
 Changelog   | [CHANGELOG](CHANGELOG.md)
 
