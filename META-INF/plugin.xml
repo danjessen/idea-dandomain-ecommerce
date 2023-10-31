@@ -5,32 +5,22 @@
   <vendor email="daniel@espendiller.net" url="http://espend.de">Daniel Espendiller</vendor>
 
   <description><![CDATA[
-      <h1>OXID Plugin</h1><br>
+      <h1>DanDomain E-Commerce Plugin</h1><br>
       <br/>
-      <a href="https://github.com/Haehnchen/idea-php-oxid-plugin/issues">Issues</a> | <a href="https://www.paypal.me/DanielEspendiller">Donate</a>
-
-      <br>
-      Because of code sharing install <a href="https://plugins.jetbrains.com/plugin/7219">Symfony Plugin</a> and enable it per project
-      <br/><br/>
+      <a href="https://github.com/danjessen/idea-dandomain-ecommerce/issues">Issues</a> | <a href="https://www.paypal.com/paypalme/danjessen">Donate</a>
 
       <h2>Dependencies</h2>
       <ul>
-        <li><a href="http://plugins.jetbrains.com/plugin/7219">Symfony Plugin</a></li>
+        <li><a href="https://plugins.jetbrains.com/plugin/6610-php">PHP Plugin</a></li>
+        <li><a href="https://plugins.jetbrains.com/plugin/6610-php">Smarty, part of PHP Plugin</a></li>
+        <li><a href="https://dandomain.dk/webshop">DanDomain E-Commerce</a></li>    
       </ul>
 
       <h2>Features</h2>
       <ul>
-        <li>PHP: Periodically scans module metadata for class inheritance and exports them to ".phpstorm-oxid.meta.php" in your project root</li>
-        <li>PHP: Metadata file exists inspector in array values</li>
-        <li>PHP: oxLang::translateString support</li>
-        <li>PHP: TypeProvider, references for factory function: oxNew, oxRegistry::get</li>
-        <li>PHP: Custom class inheritance TypeProvider for factories that a extended by metafile</li>
-        <li>PHP: oxConfig::*ConfigParam</li>
-        <li>PHP: Completion and navigation in all metadata files; array key and value context</li>
         <li>Smarty: Block references and linemarker</li>
         <li>Smarty: File includes references</li>
         <li>Smarty: File metadata parser for template related stuff</li>
-        <li>Smarty: Ident oxmultilang, oxcontent</li>
       </ul>
 
     ]]></description>
@@ -82,7 +72,6 @@
 
   <depends>com.jetbrains.php</depends>
   <depends>com.intellij.modules.platform</depends>
-  <depends>fr.adrienbrault.idea.symfony2plugin</depends>
 
   <application-components>
     <!-- Add your application components here -->
