@@ -1,3 +1,6 @@
+## 0.1
+* Forked initial project from [OXID Plugin](https://github.com/Haehnchen/idea-php-oxid-plugin/)
+
 ## 0.5
 * Move OxidMetadataFileInspection into PsiElementVisitor
 * Migration to PhpTypeProvider3 for PhpStorm 2017.3 [#12](https://github.com/Haehnchen/idea-php-oxid-plugin/issues/12)
